@@ -54,7 +54,7 @@ error:
 	call print
 	ret
 
-msg db 'StupidOS bootloader...'
+msg db 'FasbrichOS bootloader...'
 msglen equ $-msg
 errormsg db 'Error...'
 errmsglen equ $-errormsg
